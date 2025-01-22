@@ -24,7 +24,7 @@ function Footer() {
       </ul>
       </nav>
       <a className="logo footer-logo" href="https://www.instagram.com/physoc.iitd" target='_blank' rel='noreferrer'>
-        <img src="./assets/insta.png" alt="Instagram" />
+        <img src="./assets/insta.png" alt="Instagram" className='social-icon' />
       </a>
     </footer>
   );

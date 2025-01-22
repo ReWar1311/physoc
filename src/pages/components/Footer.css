@@ -16,6 +16,10 @@ footer{
 .footer-logo{
     margin: 13px 50px;
 }
+.social-icon{
+    opacity:    0.5;
+    scale: 0.8;
+}
 
 @media screen and (max-width: 600px){
     footer{
