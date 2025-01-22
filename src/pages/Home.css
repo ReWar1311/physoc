@@ -31,7 +31,7 @@
     font-weight: 300;
     text-align: left;
     margin-top: 20px;
-    width: 550px;
+    max-width: 550px;
     letter-spacing: 0.5px;
 }
 .home-content{
@@ -60,4 +60,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (max-width: 600px){
+    .home-heading{
+        font-size: 50px;
+    }
+    .home-content{
+        width: 90vw;
+    }
+    .home-para{
+        font-size: 15px;
+    }
+    .home-btn{
+        font-size: 12px;
+    }
+    .home-bg{
+        margin-top: 0px;
+        /* background-position: right; */
+    }
+    
 }

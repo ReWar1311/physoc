@@ -65,3 +65,20 @@ li>a:hover{
     background-color: rgba(196, 69, 255, 0.6);
     color: rgba(255, 255, 255, 1);
 }
+
+@media screen and (max-width: 600px){
+    header{
+        max-width: 100%;
+        margin: 25px;
+    }
+    .header-links{
+        display: none;
+    }
+    .logo{
+        margin-left: 16px;
+    }
+    .login-btn{
+        margin-right: 16px;
+    }
+    
+}

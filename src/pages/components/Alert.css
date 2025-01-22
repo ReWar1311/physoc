@@ -1,5 +1,6 @@
 .alert{
     display:inline-block;
+    text-decoration: none;
 }
 .alert-container{
     display: inline-block;
@@ -24,4 +25,34 @@
     justify-content: center;
     font-size: 12px;
     font-weight: 800;
+}
+
+
+@media screen and (max-width: 600px) {
+    .alert-container{
+        background-color: rgb(0, 0, 0);
+        border-radius: 30px;
+        border: rgba(255, 255, 255, 0.15) solid 1px;
+        margin: 10px;
+        color: rgb(152,85,255);
+        padding: 0 0px;
+    }
+    .alert-icon{
+        margin: 4px 5px;
+        margin-right:10px;
+        border-radius: 20px;
+        color: black;
+        background-color: rgb(152,85,255);
+        padding: 0px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        font-weight: 800;
+    } 
+    .alert-container>p{
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
 }

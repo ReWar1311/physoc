@@ -3,9 +3,9 @@ import './Header.css';
 function Header() {
   return (
     <header>
-        <div className= 'logo'><img  src="./assets/logo.png" alt="logo" /></div>
+        <a href='/' className= 'logo'><img  src="./assets/logo.png" alt="logo" /></a>
         <nav className='navbar'>
-            <ul className='nav-links'>
+            <ul className='nav-links header-links'>
             <li><a href="/">Home</a></li>
             <li><a href="/gallary">Gallary</a></li>
             <li><a href="/events">Events</a></li>

@@ -3,10 +3,10 @@ import './Footer.css';
 function Footer() {
   return (
     <footer>
-      <div className="logo footer-logo">
+      <a className="logo footer-logo" href="/">
         <img src="./assets/logo.png" alt="logo" />
-      </div>
-      <p>© 2024 Physics Society, IIT Delhi. All rights reserved.</p>
+      </a>
+      <p>© 2025 Physics Society, IIT Delhi. All rights reserved.</p>
       <nav className="navbar">
       <ul className="nav-links">
         <li>
@@ -23,9 +23,9 @@ function Footer() {
         </li>
       </ul>
       </nav>
-      <div className="logo footer-logo">
+      <a className="logo footer-logo" href="https://www.instagram.com/physoc.iitd" target='_blank' rel='noreferrer'>
         <img src="./assets/insta.png" alt="Instagram" />
-      </div>
+      </a>
     </footer>
   );
 }
