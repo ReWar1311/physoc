@@ -1,6 +1,7 @@
 .alert{
     display:inline-block;
     text-decoration: none;
+    pointer-events: all;
 }
 .alert-container{
     display: inline-block;
