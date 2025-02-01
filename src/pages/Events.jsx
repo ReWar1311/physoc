@@ -16,13 +16,10 @@ function Gallary() {
         </div>
         <div className="Heading">Future:</div>
         <div className="event-cards">
-          <EventCard />
-          <EventCard />
         </div>
         <div className="Heading">Past:</div>
         <div className="event-cards">
-          <EventCard />
-          <EventCard /><EventCard /><EventCard /><EventCard /><EventCard />
+
         </div>
         <Footer />
       </div>

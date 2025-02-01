@@ -17,8 +17,8 @@ function Home() {
             <Alert
               className="alert-full"
               type="NEW"
-              message="Physoc Varsity is out now"
-              link="http://linksho.vercel.app/link/18"
+              message="Freshers party forms out now"
+              link="https://linksho.vercel.app/link/24"
             />
             <div className="home-heading">PhySoc</div>
             <div className="home-para">

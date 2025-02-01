@@ -6,11 +6,6 @@ import Teamcard from "./components/TeamCard";
 
 function Team() {
   const teamMembers = [
-    { img: "./assets/potrait.png", name: "Name", role: "Role" },
-    { img: "./assets/potrait.png", name: "Name", role: "Role" },
-    { img: "./assets/potrait.png", name: "Name", role: "Role" },
-    { img: "./assets/potrait.png", name: "Name", role: "Role" },
-    { img: "./assets/potrait.png", name: "Name", role: "Role" },
   ];
 
   return (
