@@ -4,13 +4,13 @@ header{
     margin-left: auto;
     margin-right: auto;
     font-weight: 400;
-    background-color: #000000;
+    background-color: var(--bg);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     border-radius: 14px;
-    border: rgba(255, 255, 255, 0.15) solid 1px;
+    border: var(--boarder) ;
     font-size: 13px;
     pointer-events: all;
 
@@ -42,16 +42,16 @@ li{
     margin: 0 10px;
 }
 li>a{
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--secondary50);
     text-decoration: none;
 }
 li>a:hover{
-    color: rgba(255, 255, 255, 1);
+    color: var(--secondary);
 }
 
 .login-btn{
-    background-color: rgba(140, 69, 255, 0.4);
-    color: rgba(255, 255, 255, 0.6);
+    background-color: var(--primary50);
+    color: var(--secondary);
     border: none;
     border-radius: 8px;
     padding: 0px 20px;
@@ -59,11 +59,12 @@ li>a:hover{
     height: 30px;
     padding: 2px 15px;
     margin-right: 16px;
-    box-shadow: 0px 0px 6px 3px rgba(255, 255, 255, 0.25) inset;
+    box-shadow: 0px 0px 6px 3px var(--secondary50) inset;
 }
 .login-btn:hover{
-    background-color: rgba(196, 69, 255, 0.6);
-    color: rgba(255, 255, 255, 1);
+    background-color: var(--primary);
+    color: var(--secondary);
+    transform: translateY(-2px);
 }
 
 @media screen and (max-width: 600px){

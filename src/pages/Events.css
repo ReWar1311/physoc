@@ -27,7 +27,7 @@
 .Heading{
     font-size: larger;
     font-weight: 500;
-    color: white;
+    color: var(--secondary);
     margin-left: 20px;
     margin-bottom: 0;
     margin-top: 20px;

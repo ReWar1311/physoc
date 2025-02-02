@@ -5,8 +5,7 @@ import Grids from "./components/Grids";
 import Teamcard from "./components/TeamCard";
 
 function Team() {
-  const teamMembers = [
-  ];
+  const teamMembers = [];
 
   return (
     <div className="team">

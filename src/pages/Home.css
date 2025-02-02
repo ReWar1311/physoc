@@ -28,12 +28,12 @@
 }
 .home-heading{
     margin-left: 10px;
-    color: white;
+    color: var(--secondary);
     font-size: 82px;
     font-weight: 500;
     text-align: left;
     margin-top: 20px;
-    background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(255, 255, 255), rgb(255, 255, 255)); /* Gradient */
+    background-image: linear-gradient(to bottom right, var(--bg),var(--secondary), var(--secondary)); /* Gradient */
     -webkit-background-clip: text; /* Clip background to text */
     background-clip: text; /* Standard syntax */
     color: transparent; /* Make text color transparent */
@@ -42,7 +42,7 @@
 }
 .home-para{
     margin-left: 10px;
-    color: white;
+    color: var(--secondary);
     font-size: 20px;
     font-weight: 300;
     text-align: left;
@@ -61,7 +61,7 @@
     margin-right: auto;
 }
 .home-btn{
-    background-color: white;
+    background-color: var(--secondary);
     margin-left: 10px;
     color: rgba(0, 0, 0);
     border: none;

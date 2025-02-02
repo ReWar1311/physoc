@@ -13,7 +13,7 @@
     top: 0;
     left: 0;
     z-index: 1;
-    background: linear-gradient(to bottom right, #000000, #00000000);
+    background: var(--gradient);
     position: absolute;
     pointer-events: none;
 }
@@ -23,16 +23,13 @@
     aspect-ratio: 1/1;
     margin: 0px;
     padding: 0px;
-    border: 1px dotted rgba(255, 255, 255, 0.171);
+    border: 1px dotted var(--gridboarder);
     position: relative;
-    background-color: rgba(0, 0, 0, 0.123);
     transition: all 5s ease; 
-
     pointer-events: auto;
 }
 
 .grid-item:hover {
     transition: all 0s ease;
-    background-color: rgba(0, 0, 0, 0);
-    box-shadow:0px 0px 100px rgba(102, 0, 255, 0.164), 0px 0px 200px rgba(255, 255, 255, 0.151);
+    box-shadow: var(--gridshadow);
 }
